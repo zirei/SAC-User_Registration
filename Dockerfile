@@ -1,7 +1,7 @@
 FROM golang as builder
 RUN go get github.com/zirei/sac-user_registration
 
-FROM node:14-stretch-slim
+FROM node:12-stretch-slim
 
 # Create app directory
 RUN mkdir /app
