@@ -1,5 +1,5 @@
 {
-  "name": "SAC-user_registration",
+  "name": "sac_user_registration",
   "version": "1.0.0",
   "description": "Users backend of Sistema de alquiler de carros",
   "main": "server.js",
