@@ -1,5 +1,5 @@
 FROM golang as builder
-RUN go get github.com/zirei/SAC-User_Registration
+RUN go get github.com/zirei/sac-user_registration
 
 FROM node:14-stretch-slim
 
